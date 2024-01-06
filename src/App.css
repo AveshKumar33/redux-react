@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* .changeButtons styles */
+.changeButtons {
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 0 1rem;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.changeButtons:hover {
+  background-color: #2980b9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .quantity_input styles */
+.quantity_input {
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Corrected border style */
+  border-radius: 5px;
+  outline: none;
+  width: 30px;
+  /* Adjust the width as needed */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .container styles */
+.container {
+  border: 2px solid black;
+  /* Corrected border style */
+  padding: 20px 60px 80px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button container styles for centering */
+.button-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* "black" and "red" button styles */
+.button {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green-button {
+  background-color: rgb(18, 173, 16);
+}
+
+.red-button {
+  background-color: red;
 }
